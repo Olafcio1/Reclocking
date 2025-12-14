@@ -16,12 +16,16 @@ import java.util.TimeZone;
 public final class Reclocking extends JavaPlugin implements Listener {
     ArrayList<World> worlds;
     Calendar calendar;
+    String timezone;
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
+        timezone = getConfig().getString("timezone");
+
         worlds = new ArrayList<>();
         calendar = Calendar.getInstance();
-        calendar.setTimeZone(TimeZone.getTimeZone(ZoneId.of("UTC+1")));
+        calendar.setTimeZone(TimeZone.getTimeZone(ZoneId.of(timezone)));
 
         getServer().getPluginManager().registerEvents(this, this);
     }

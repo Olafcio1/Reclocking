@@ -1,0 +1,12 @@
+# Timezones:
+# ┌ Madrid (UTC+1)
+# │ London (UTC+0)
+# │ Paris (UTC+1)
+# │ Rome (UTC+1)
+# │ Berlin (UTC+1)
+# │ Budapest (UTC+1)
+# │ Bucharest (UTC+2)
+# │ Minsk (UTC+3)
+# │ Kyiv (UTC+2)
+# └ Moscow (UTC+3)
+timezone: UTC+1
