@@ -1,0 +1,8 @@
+name: Reclocking
+version: '1.0'
+main: pl.olafcio.reclocking.Reclocking
+api-version: '1.21'
+load: STARTUP
+authors: [ Olafcio ]
+description: Makes the world time synchronized with the real one!
+website: https://olafcio1.github.io
